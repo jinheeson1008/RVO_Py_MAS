@@ -54,4 +54,5 @@ while t*step < total_time:
         visualize_traj_dynamic(ws_model, X, V, goal, time=t*step, name='data/snap%s.png'%str(t/10))
         #visualize_traj_dynamic(ws_model, X, V, goal, time=t*step, name='data/snap%s.png'%str(t/10))
     t += 1
+    print("On running... , t:{},step:{}, t*step:{}".format(t,step,t*step))
     
